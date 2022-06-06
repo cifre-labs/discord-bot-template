@@ -3,7 +3,6 @@ import { messageReactionAddHandler } from "./src/handlers/message-reaction-add-h
 import { messageCreateHandler } from "./src/handlers/message-create-handler.js";
 import { buttonHandler } from "./src/handlers/button-handler.js";
 import { startJobs } from "./src/handlers/cronjob-handler.js";
-import { keys } from "./src/utils/keys.js";
 import fs from 'fs';
 import 'dotenv/config';
 
@@ -59,7 +58,7 @@ client.once('ready', () => {
     console.log(`Discord Bot: Online and Ready as ${client.user.tag}`);
 
     // Retrieve Specific Guild
-    const guild = client.guilds.cache.get(keys.guild.id);
+    const guild = client.guilds.cache.get(process.env.GUILD_ID);
     if (!guild) {
         console.log(`Discord Bot: I can't find the Guild. Double check the Guild ID inside the /src/utils/keys.js file.`);
         return;
