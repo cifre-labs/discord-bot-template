@@ -18,5 +18,12 @@ DB = INSERT_DB_NAME
 ```
 2. Run `node .` in the terminal
 
+## Creating a Command
+Each command is a separate `.js` file. All of the commands are located in `./src/commands/`. You can use `sample-command.js` as a template.
+
+1. Name your command at `setName('INSERT_COMMAND_NAME')`. This will be the one that appears when you type `/`.
+2. Place your program under the `execute()` function.
+3. To add choices to your slash command, refer to this [documentation](https://discordjs.guide/interactions/slash-commands.html#choices).
+
 ## Reminders
 - This template is used only for custom discord bots for a specific Discord Server. While you may use this for a bot that runs in multiple servers, just make sure to handle the CronJob Handler (or delete it instead).
