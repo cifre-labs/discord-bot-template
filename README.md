@@ -1,11 +1,14 @@
 # Discord Bot Template
 Creating a Discord Bot from scratch can be tedious. We made this template for everyone to easily create and deploy customized discord bots.
 
+## Prerequisites
+1. **NodeJS and NPM** is installed in the system.
+2. The Developer should know basic **Javascript.**
+
 ## Quick Setup
 1. Fill up the details in the `.env` file.
 2. Run `npm i` in the terminal.
 3. Run `npm start` in the terminal.
-
 
 ## Beginner Step-by-step Setup
 1. Go to https://discord.com/developers/applications and create a new Application.
