@@ -2,7 +2,7 @@
 Creating a Discord Bot from scratch can be tedious. We made this template for everyone to easily create and deploy customized discord bots.
 
 ## Prerequisites
-1. **NodeJS and NPM** is installed in the system.
+1. **NodeJS, NPM, Git** is installed in the system.
 2. The Developer should know basic **Javascript.**
 
 ## Quick Setup
@@ -12,7 +12,7 @@ Creating a Discord Bot from scratch can be tedious. We made this template for ev
 ## Beginner Step-by-step Setup
 1. Go to https://discord.com/developers/applications and create a new Application.
 2. On the Left Menu Panel, Go to "Bot", and create a new bot.
-3. Again on the Left Menu Panel, Go to "OAuth2" → "URL Generator
+3. Again on the Left Menu Panel, Go to "OAuth2" → "URL Generator"
    - Under **Scopes**, Tick the "*bot*" checkbox.
    - Under **Scopes**, Tick the "*applications.commands*" checkbox.
    - Under **Bot Permissions**, Tick the "*Adminstrator*" checkbox.
