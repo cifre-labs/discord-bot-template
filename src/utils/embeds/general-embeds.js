@@ -1,4 +1,4 @@
-import { keys } from "../keys";
+import { keys } from "../keys.js";
 
 // You may use constant values from Keys
 const { mainColor } = keys.colors;
