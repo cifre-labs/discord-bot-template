@@ -25,7 +25,7 @@ export const successEmbed = {
 export const errorEmbed = {
     title: `I don't feel so good Mr. Stark...`,
     description: `I encountered an error. Sorry 'bout that.`,
-    color: RED,
+    color: 'RED',
     image: {
         "url": "https://c.tenor.com/EEeuMx1OE-gAAAAd/oof-iron.gif"
     }
