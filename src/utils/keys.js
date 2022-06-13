@@ -2,7 +2,10 @@
  * All of the Discord IDs in one place. Place them all here.
  */
 export const keys = {
-    embedColor: "#f1f10b",
+    colors: {
+        mainColor: "#f4b41a",
+        secondaryColor: "#143d59",
+    },
 
     guild: {
         id: "INSERT_GUILD_ID",
