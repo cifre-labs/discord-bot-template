@@ -22,7 +22,7 @@ Creating a Discord Bot from scratch can be tedious. We made this template for ev
 7. Go back to your Discord Server where you added your bot, and try to run the command `/hello`.
 
 ## Creating a Command
-Each command is a separate `.js` file. All of the commands are located in [./src/commands/](https://github.com/cifrelabs/discord-bot-template/tree/main/src/commands). You can use the included file, [hello.js](https://github.com/cifrelabs/discord-bot-template/blob/main/src/commands/hello.js), as a guide. To add choices to your slash command, refer to this [documentation](https://discordjs.guide/interactions/slash-commands.html#choices).
+Each command is a separate `.js` file. All of the commands are located in [./src/commands/](https://github.com/cifrelabs/discord-bot-template/tree/main/src/commands). You can use the already-included-sample-command file, [hello.js](https://github.com/cifrelabs/discord-bot-template/blob/main/src/commands/hello.js), as a guide. To add choices to your slash command, refer to this [documentation](https://discordjs.guide/interactions/slash-commands.html#choices).
 
 ## Reminders
 - We highly suggest to not write your program inside [index.js](https://github.com/cifrelabs/discord-bot-template/blob/main/index.js) but instead create handlers for listeners for better organization. In our convention, we place these events in the [./src/handlers](https://github.com/cifrelabs/discord-bot-template/tree/main/src/handlers) folder (e.g. [message-create-handler.js](https://github.com/cifrelabs/discord-bot-template/blob/main/src/handlers/message-create-handler.js) and [button-handler.js](https://github.com/cifrelabs/discord-bot-template/blob/main/src/handlers/button-handler.js)).
