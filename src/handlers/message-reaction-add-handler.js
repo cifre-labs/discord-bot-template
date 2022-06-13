@@ -1,5 +1,5 @@
 /**
- * Listens to all of the Reactions added in the Guild
+ * Listens to every reaction added in any message in the Guild
  * @param {ReactionManager} reaction 
  * @param {User} user 
  */
