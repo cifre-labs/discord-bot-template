@@ -6,7 +6,7 @@ Creating a Discord Bot from scratch can be tedious. We made this template for ev
 2. The Developer should know basic **Javascript.**
 
 ## Quick Setup
-1. Fill up the details in the `.env` file.
+1. Fill up the details in the [.env](https://github.com/cifrelabs/discord-bot-template/blob/main/.env) file.
 2. Run `npm start` in the terminal.
 
 ## Beginner Step-by-step Setup
@@ -17,12 +17,12 @@ Creating a Discord Bot from scratch can be tedious. We made this template for ev
    - Under **Scopes**, Tick the "*applications.commands*" checkbox.
    - Under **Bot Permissions**, Tick the "*Adminstrator*" checkbox.
 4. If you scroll down, you will see a **Generated URL** section. Copy it and paste it to your web browser's address bar. This will allow you to invite your newly created bot to your own Discord Server.
-5. Going back to the program files, Fill up the details in the `.env` file.
+5. Going back to the program files, Fill up the details in the [.env](https://github.com/cifrelabs/discord-bot-template/blob/main/.env) file.
 6. Run `npm start` in the terminal.
 7. Go back to your server and try to run the command `/hello`
 
 ## Creating a Command
-Each command is a separate `.js` file. All of the commands are located in `./src/commands/`. You can use `hello.js` as a guide. To add choices to your slash command, refer to this [documentation](https://discordjs.guide/interactions/slash-commands.html#choices).
+Each command is a separate `.js` file. All of the commands are located in [./src/commands/](https://github.com/cifrelabs/discord-bot-template/tree/main/src/commands). You can use the included file, [hello.js](https://github.com/cifrelabs/discord-bot-template/blob/main/src/commands/hello.js), as a guide. To add choices to your slash command, refer to this [documentation](https://discordjs.guide/interactions/slash-commands.html#choices).
 
 ## Reminders
 - We highly suggest to not write your program inside `index.js` but instead create handlers for listeners for better organization. In our convention, we place these events in the `./src/handlers` folder (e.g. `message-create-handler.js` and `button-handler.js`).
