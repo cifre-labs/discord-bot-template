@@ -27,7 +27,7 @@ for (const file of commandFiles) {
 }
 
 // Listening for messages sent
-client.on('messageCreate', message => {
+client.on('messageCreate', async message => {
 	try { await messageCreateHandler(message); }
     catch (e) { console.error(e); }
 });
