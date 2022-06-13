@@ -1,8 +1,9 @@
-import mysql from 'mysql';
+import { createPool } from 'mysql2/promise';
 import 'dotenv/config';
 
-const pool = mysql.createPool({
-    multipleStatements: true,
+// MySQL Database Implementation (Completely Optional)
+const pool = createPool({
+    multipleStatements: process.env.MULTIPLE,
     connectionLimit: process.env.LIMIT,
     host: process.env.HOST,
     user: process.env.USERNAME,
@@ -10,13 +11,6 @@ const pool = mysql.createPool({
     database: process.env.DB,
 });
 
-export const query = (sql, callback) => {
-    pool.getConnection((err, connection) => {
-        if(err) throw err;
-        connection.query(sql, (err, res) => {
-            if (err) throw err;
-            callback(res);
-            connection.release();
-        })
-    });
+export const query = (sql) => {
+    return await pool.query(sql).catch(err => console.error(err));
 }
