@@ -29,4 +29,4 @@ Each command is a separate `.js` file. All of the commands are located in `./src
 ## Reminders
 - We highly suggest to program inside `index.js` but instead create handlers for listeners for maximum organization. In our convention, we place these events in the `./src/handlers` folder (e.g. `message-create-handler.js` and `button-handler.js`)
 - The `.env` file is not meant to be pushed to the remote repository. We added the file only for faster setup and straight-forward instruction.
-- You may run `git update-index --assume-unchanged .env` in the terminal so that git will not track any changes in the `.env` file; this is to avoid pushing your bot token by accident to repository.
+- You may run `git update-index --assume-unchanged .env` in the terminal so that git will not track any changes in the `.env` file; this is to avoid pushing your bot token by accident to the repository.
