@@ -5,11 +5,11 @@ const { mainColor } = keys.colors;
 
 export const successEmbed = {
     title: `Hello World!`,
-    description: '**You did it!** If you see this, it means the Bot is working perfectly well!\n\nNow for your next tasks:',
+    description: '**You did it!** If you see this, you followed all of the steps perfectly and the Bot is working perfectly well!\n\nNow for your next tasks:',
     fields: [
         {
             name: '_ _\n1. Create more commands!',
-            value: `Learn to do it by going reading this [documentation.](https://github.com/cifrelabs/discord-bot-template#creating-a-command)`,
+            value: `Learn to do it by going to this [documentation.](https://github.com/cifrelabs/discord-bot-template#creating-a-command)`,
         },
         {
             name: '_ _\n2. Share this guide to your friends!',
