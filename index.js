@@ -53,6 +53,21 @@ client.on('interactionCreate', async interaction => {
 	}
 });
 
+// Error Handling
+client.on('error', error => {
+	console.error('The bot encountered an error:', error);
+});
+
+client.on('shardError', error => {
+	console.error('The bot encountered a websocket connection error:', error);
+});
+
+client.on('debug', console.log);
+
+process.on('unhandledRejection', error => {
+	console.error('The bot encountered an unhandled promise rejection:', error);
+});
+
 client.once('ready', () => {
     console.log(`Discord Bot: Online and Ready as ${client.user.tag}`);
 });
