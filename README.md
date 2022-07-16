@@ -7,7 +7,8 @@ Creating a Discord Bot from scratch can be tedious. We made this template for ev
 
 ## Quick Setup
 1. Fill up the details in the [.env](https://github.com/cifrelabs/discord-bot-template/blob/main/.env) file.
-2. Run `npm start` in the terminal.
+2. Run `npm i` in the terminal.
+3. Then, run `npm start`.
 
 ## Beginner Step-by-step Setup
 1. Go to https://discord.com/developers/applications and create a new Application.
