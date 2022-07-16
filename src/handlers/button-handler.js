@@ -1,7 +1,7 @@
 /**
  * Button Handler for your Discord Bot, placed in a separated file for organization.
- * @param {*} interaction 
- * @param {*} client 
+ * @param {BaseInteraction} interaction 
+ * @param {Client} client 
  */
 export async function buttonHandler(interaction, client) {
     const { customId } = interaction;

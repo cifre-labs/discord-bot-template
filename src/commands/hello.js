@@ -19,5 +19,5 @@ export const data = new SlashCommandBuilder()
     .setDescription('Check if you did everything right when setting up the bot.');
 
 export const execute = async (interaction) => {
-    await interaction.reply({embeds: [successEmbed]});
+    await interaction.reply({ embeds: [successEmbed] });
 }
