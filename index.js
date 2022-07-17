@@ -53,7 +53,8 @@ client.on('shardError', error => {
 	console.error('The bot encountered a websocket connection error:', error);
 });
 
-client.on('debug', console.log);
+// Uncomment Line 57 only whenever debugging connection with DiscordAPI
+// client.on('debug', console.log);
 
 process.on('unhandledRejection', error => {
 	console.error('The bot encountered an unhandled promise rejection:', error);
