@@ -6,7 +6,12 @@ Creating a Discord Bot from scratch can be tedious. We made this template for ev
 2. The Developer should know basic **Javascript.**
 
 ## Quick Setup
-1. Fill up the details in the [.env](https://github.com/cifrelabs/discord-bot-template/blob/main/.env) file.
+1. Create a `.env` file containing the following:
+```
+# You can retrieve them at https://discord.com/developers/applications, when you create your own bot
+TOKEN = INSERT_BOT_TOKEN
+CLIENT_ID = INSERT_CLIENT_ID
+```
 2. Run `npm i` in the terminal.
 3. Then, run `npm start`.
 
@@ -18,7 +23,12 @@ Creating a Discord Bot from scratch can be tedious. We made this template for ev
    - Under **Scopes**, Tick the "*applications.commands*" checkbox.
    - Under **Bot Permissions**, Tick the "*Adminstrator*" checkbox.
 4. If you scroll down, you will see a **Generated URL** section. Copy it and paste it to your web browser's address bar. This will allow you to invite your newly created bot to your own Discord Server.
-5. Going back to the program files, Fill up the details in the [.env](https://github.com/cifrelabs/discord-bot-template/blob/main/.env) file.
+5. Going back to the program files, Create a `.env` file containing the following:
+```
+# You can retrieve them at https://discord.com/developers/applications, when you create your own bot
+TOKEN = INSERT_BOT_TOKEN
+CLIENT_ID = INSERT_CLIENT_ID
+```
 6. Run `npm start` in the terminal.
 7. Go back to your Discord Server where you added your bot, and try to run the command `/hello`.
 
